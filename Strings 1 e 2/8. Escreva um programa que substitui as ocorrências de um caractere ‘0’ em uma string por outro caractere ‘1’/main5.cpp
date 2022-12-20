@@ -12,8 +12,8 @@ int main(int argc, char** argv) {
 	gets(str);
 	
 	while(str[i] != '\0'){
-		if(str[i] == '1'){
-			str[i] = '0';
+		if(str[i] == '0'){
+			str[i] = '1';
 		}
 		i++;
 	}
